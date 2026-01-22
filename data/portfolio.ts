@@ -31,49 +31,49 @@ const enContent: PortfolioContent = {
       title: "CSV Analytics App",
       description: "Interactive web dashboard for CSV dataset exploration. Features secure auth, dynamic visualization, and AI-powered assistance via Gemini API.",
       tags: ["R Shiny", "Gemini API", "Data Viz"],
-      link: ""
+      link: "https://raihanh.shinyapps.io/CSV_Data_Analytics"
     },
     {
       id: "2",
       title: "End-to-End Crypto ELT",
       description: "Containerized pipeline orchestrating cryptocurrency market data. Implements a Data Lake architecture with MinIO, transformation via dbt, and automated scheduling using Apache Airflow.",
       tags: ["Airflow", "dbt", "Docker", "Postgres"],
-      link: "https://github.com/YOUR_USERNAME/crypto-elt-pipeline"
+      link: "https://github.com/rehanhf/crypto-elt-pipeline"
     },
     {
       id: "3",
       title: "NYC Taxi Big Data Platform",
       description: "Scalable batch processing system handling 130M+ records. Utilizes Apache Spark for distributed transformation, DuckDB for high-speed ingestion, and custom geospatial visualization.",
       tags: ["Apache Spark", "Airflow", "Big Data", "Metabase"],
-      link: "https://github.com/YOUR_USERNAME/nyc-taxi-pipeline"
+      link: "https://github.com/rehanhf/nyc-taxi-pipeline"
     },
     {
       id: "4",
       title: "Headless Media CMS",
       description: "High-performance API backend for omnichannel content delivery. Features MariaDB native Full-Text Search, Redis caching for sub-50ms latency, and scalable Docker infrastructure.",
       tags: ["Laravel", "MariaDB", "Redis", "API Design"],
-      link: "https://github.com/YOUR_USERNAME/headless-news"
+      link: "https://github.com/rehanhf/headless-news"
     },
     {
       id: "5",
       title: "FISIP Connect",
       description: "Centralized digital information hub for BEM FISIP serving 1000+ students. Includes custom CMS for event calendars and announcements.",
       tags: ["PHP", "JS", "HTML/CSS", "CMS"],
-      link: "#"
+      link: "fisipconnect.id"
     },
     {
       id: "6",
       title: "Law Firm Redesign",
       description: "UI/UX redesign for Anagata Law website focusing on readability, information hierarchy, and visual consistency.",
       tags: ["Figma", "UI/UX", "Design System"],
-      link: "#"
+      link: "https://www.figma.com/proto/gJQZxc7xgj9Nsg2CHy7bv4/UAS-IUXXIU?node-id=1-2&p=f&t=EvIrY7HVdZXnpTZJ-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1"
     },
     {
       id: "7",
       title: "TAJAM Digital News & Article Website",
       description: "Web-based content management system for creating, managing, and publishing articles with role-based access control. Supports dynamic routing with SEO-friendly slugs, category and tag management, and cloud-based image handling, built on a modern full-stack architecture for performance and scalability.",
       tags: ["Next.js", "Firebase", "Typescript", "CMS", "TailwindCSS"],
-      link: "#"
+      link: "https://news-websites-testing-9th9-hzdiu01jo-hafizhnabil-6875s-projects.vercel.app"
     },
   ],
   experience: [
@@ -114,21 +114,11 @@ const enContent: PortfolioContent = {
     },
     {
       id: "c2",
-      name: "Microsoft Certified: Data Analyst Associate",
-      issuer: "Microsoft",
-    },
-    {
-      id: "c3",
-      name: "Certified Data Professional (CDP)",
-      issuer: "ICCP",
-    },
-    {
-      id: "c4",
       name: "Samsung Innovation Campus Batch 6: Intro to IoT & Python",
       issuer: "Samsung",
     },
     {
-      id: "c5",
+      id: "c3",
       name: "Speaker Wadhwani Opportunity: Employability Skills",
       issuer: "Wadhwani Foundation",
     }
@@ -177,25 +167,46 @@ const idContent: PortfolioContent = {
     },
     {
       id: "2",
-      title: "FISIP Connect",
-      description: "Hub informasi digital terpusat untuk BEM FISIP melayani 1000+ siswa. Mencakup CMS kustom untuk kalender acara dan pengumuman.",
-      tags: ["PHP", "JS", "HTML/CSS", "CMS"],
-      link: "#"
+      title: "End-to-End Crypto ELT",
+      description: "Pipeline terkontainerisasi yang mengelola data pasar kripto. Mengimplementasikan arsitektur Data Lake dengan MinIO, transformasi menggunakan dbt, dan penjadwalan otomatis dengan Apache Airflow.",
+      tags: ["Airflow", "dbt", "Docker", "Postgres"],
+      link: "https://github.com/rehanhf/crypto-elt-pipeline"
     },
     {
       id: "3",
-      title: "Desain Ulang Firma Hukum",
-      description: "Desain ulang UI/UX untuk situs web Anagata Law dengan fokus pada keterbacaan, hierarki informasi, dan konsistensi visual.",
-      tags: ["Figma", "UI/UX", "Design System"],
-      link: "#"
+      title: "Platform Big Data Taksi NYC",
+      description: "Sistem pemrosesan batch yang skalabel untuk menangani lebih dari 130 juta catatan. Menggunakan Apache Spark untuk transformasi terdistribusi, DuckDB untuk pengambilan data berkecepatan tinggi, dan visualisasi geospasial kustom.",
+      tags: ["Apache Spark", "Airflow", "Big Data", "Metabase"],
+      link: "https://github.com/rehanhf/nyc-taxi-pipeline"
     },
     {
       id: "4",
-      title: "TAJAM Platform Berita & Artikel Digital",
-      description: "Sistem manajemen konten berbasis web untuk membuat, mengelola, dan menerbitkan artikel dengan kontrol akses berbasis peran. Mendukung perutean dinamis dengan slug ramah SEO, manajemen kategori dan tag, serta penanganan gambar berbasis cloud, dibangun pada arsitektur full-stack modern untuk performa dan skalabilitas.",
-      tags: ["Next.js", "Firebase", "Typescript", "CMS", "TailwindCSS"],
-      link: "#"
-    }
+      title: "Headless Media CMS",
+      description: " Backend API berkinerja tinggi untuk pengiriman konten omnichannel. Dilengkapi dengan Pencarian Teks Lengkap asli MariaDB, penyimpanan cache Redis untuk latensi di bawah 50ms, dan infrastruktur Docker yang skalabel.",
+      tags: ["Laravel", "MariaDB", "Redis", "API Design"],
+      link: "https://github.com/rehanhf/headless-news"
+    },
+    {
+      id: "5",
+      title: "FISIP Connect",
+      description: "Pusat informasi digital terpusat untuk BEM FISIP yang melayani lebih dari 1000 mahasiswa. Termasuk CMS kustom untuk kalender acara dan pengumuman.",
+      tags: ["PHP", "JS", "HTML/CSS", "CMS"],
+      link: "fisipconnect.id"
+    },
+    {
+      id: "6",
+      title: "Redesain Situs Web Kantor Hukum",
+      description: "Redesain UI/UX untuk situs web Anagata Law dengan fokus pada keterbacaan, hierarki informasi, dan konsistensi visual.",
+      tags: ["Figma", "UI/UX", "Sistem Desain"],
+      link: "https://www.figma.com/proto/gJQZxc7xgj9Nsg2CHy7bv4/UAS-IUXXIU?node-id=1-2&p=f&t=EvIrY7HVdZXnpTZJ-1& scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1"
+    },
+    {
+      id: "7",
+      title: "TAJAM Digital News & Article Website",
+      description: "Sistem manajemen konten berbasis web untuk membuat, mengelola, dan mempublikasikan artikel dengan kontrol akses berbasis peran. Mendukung rute dinamis dengan slug ramah SEO, pengelolaan kategori dan tag, serta penanganan gambar berbasis cloud, dibangun di atas arsitektur full-stack modern untuk kinerja dan skalabilitas.",
+      tags: ["Next.js", "Firebase", "Typescript","CMS", "TailwindCSS"],
+      link: "https://news-websites-testing-9th9-hzdiu01jo-hafizhnabil-6875s-projects.vercel.app"
+    },
   ],
   experience: [
     {
@@ -235,21 +246,11 @@ const idContent: PortfolioContent = {
     },
     {
       id: "c2",
-      name: "Microsoft Certified: Data Analyst Associate",
-      issuer: "Microsoft",
-    },
-    {
-      id: "c3",
-      name: "Certified Data Professional (CDP)",
-      issuer: "ICCP",
-    },
-    {
-      id: "c4",
       name: "Samsung Innovation Campus Batch 6: Intro to IoT & Python",
       issuer: "Samsung",
     },
     {
-      id: "c5",
+      id: "c3",
       name: "Speaker Wadhwani Opportunity: Employability Skills",
       issuer: "Wadhwani Foundation",
     }
