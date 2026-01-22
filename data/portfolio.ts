@@ -31,29 +31,50 @@ const enContent: PortfolioContent = {
       title: "CSV Analytics App",
       description: "Interactive web dashboard for CSV dataset exploration. Features secure auth, dynamic visualization, and AI-powered assistance via Gemini API.",
       tags: ["R Shiny", "Gemini API", "Data Viz"],
-      link: "#"
+      link: ""
     },
     {
       id: "2",
+      title: "End-to-End Crypto ELT",
+      description: "Containerized pipeline orchestrating cryptocurrency market data. Implements a Data Lake architecture with MinIO, transformation via dbt, and automated scheduling using Apache Airflow.",
+      tags: ["Airflow", "dbt", "Docker", "Postgres"],
+      link: "https://github.com/YOUR_USERNAME/crypto-elt-pipeline"
+    },
+    {
+      id: "3",
+      title: "NYC Taxi Big Data Platform",
+      description: "Scalable batch processing system handling 130M+ records. Utilizes Apache Spark for distributed transformation, DuckDB for high-speed ingestion, and custom geospatial visualization.",
+      tags: ["Apache Spark", "Airflow", "Big Data", "Metabase"],
+      link: "https://github.com/YOUR_USERNAME/nyc-taxi-pipeline"
+    },
+    {
+      id: "4",
+      title: "Headless Media CMS",
+      description: "High-performance API backend for omnichannel content delivery. Features MariaDB native Full-Text Search, Redis caching for sub-50ms latency, and scalable Docker infrastructure.",
+      tags: ["Laravel", "MariaDB", "Redis", "API Design"],
+      link: "https://github.com/YOUR_USERNAME/headless-news"
+    },
+    {
+      id: "5",
       title: "FISIP Connect",
       description: "Centralized digital information hub for BEM FISIP serving 1000+ students. Includes custom CMS for event calendars and announcements.",
       tags: ["PHP", "JS", "HTML/CSS", "CMS"],
       link: "#"
     },
     {
-      id: "3",
+      id: "6",
       title: "Law Firm Redesign",
       description: "UI/UX redesign for Anagata Law website focusing on readability, information hierarchy, and visual consistency.",
       tags: ["Figma", "UI/UX", "Design System"],
       link: "#"
     },
     {
-      id: "4",
+      id: "7",
       title: "TAJAM Digital News & Article Website",
       description: "Web-based content management system for creating, managing, and publishing articles with role-based access control. Supports dynamic routing with SEO-friendly slugs, category and tag management, and cloud-based image handling, built on a modern full-stack architecture for performance and scalability.",
       tags: ["Next.js", "Firebase", "Typescript", "CMS", "TailwindCSS"],
       link: "#"
-    }
+    },
   ],
   experience: [
     {
