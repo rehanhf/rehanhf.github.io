@@ -231,6 +231,17 @@ const idContent: PortfolioContent = {
         "Meningkatkan keterbacaan data untuk tim non-teknis.",
         "Mengelola alur kerja data menggunakan N8N dan Python untuk memastikan akurasi pelaporan."
       ]
+    },
+    {
+      id: "e2",
+      role: "IT Intern",
+      company: "Jawapos.COM",
+      period: "Aug 2025 - Present",
+      achievements: [
+        "Modernisasi infrastruktur data lama dan otomatisasi wokflow editorial untuk media digital Jawa Pos.",
+        "Membuat pipeline ETL yang bersifat idempotent menggunakan Laravel 12 dan MariaDB. Menerapkan pola Service-Layer untuk menormalisasi data warisan yang tidak terstruktur menjadi skema relasional yang ketat menggunakan hubungan polimorfik dan transaksi ACID.",
+        "Mengembangkan skrip tangguh otomatisasi Python (cloudscraper, BeautifulSoup) untuk mengekstrak dan memvalidasi metadata di lebih dari 25 subdomain Radar. Ini menggantikan entri data manual, melewati perlindungan anti-bot Cloudflare, dan memastikan akurasi data 100% untuk berkas konfigurasi penerbit (JSON)."
+       ]
     }
   ],
   education: [
