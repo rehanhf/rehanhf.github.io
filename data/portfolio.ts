@@ -81,13 +81,24 @@ const enContent: PortfolioContent = {
       id: "e1",
       role: "Data Scientist Intern",
       company: "Swanstatistic",
-      period: "Aug 2025 - Dec 2025",
+      period: "Aug 2025 - Present",
       achievements: [
         "In charge of creating and testing N8N templates for commercial use.",
         "Translated complex raw data into actionable insights and visual presentations using Canva and Excel.",
         "Improved data readability for non-technical teams.",
         "Managed data workflows using N8N and Python to ensure accuracy in reporting."
       ]
+    },
+    {
+      id: "e2",
+      role: "IT Intern",
+      company: "Jawapos.COM",
+      period: "Aug 2025 - Present",
+      achievements: [
+        "Focused on modernizing legacy data infrastructure and automating editorial workflows for the Jawa Pos digital network.",
+        "Build an idempotent ETL pipeline using Laravel 12 and MariaDB. Implemented a Service-Layer pattern to normalize unstructured legacy data into a strict relational schema using polymorphic relationships and ACID transactions.",
+        "Engineered a robust Python automation suite (cloudscraper, BeautifulSoup) to scrape and validate metadata across 25+ Radar subdomains. This replaced manual data entry, bypassing Cloudflare anti-bot protection and ensuring 100% data accuracy for publisher configuration files (JSON)."
+       ]
     }
   ],
   education: [
@@ -95,15 +106,15 @@ const enContent: PortfolioContent = {
       id: "ed1",
       school: "Universitas Pembangunan Veteran Jakarta",
       degree: "Bachelor of Information Science",
-      period: "Aug 2020 - Present",
+      period: "Aug 2023 - Present",
       gpa: "3.7"
     },
     {
       id: "ed2",
       school: "SMA Plus PGRI Cibinong",
       degree: "Science Major",
-      period: "May 2017 - June 2020",
-      gpa: "9.2"
+      period: "May 2020 - June 2023",
+      gpa: "87"
     }
   ],
   certifications: [
@@ -227,15 +238,15 @@ const idContent: PortfolioContent = {
       id: "ed1",
       school: "Universitas Pembangunan Veteran Jakarta",
       degree: "Sarjana Sains Informasi",
-      period: "Agu 2020 - Sekarang",
+      period: "Agustus 2023 - Sekarang",
       gpa: "3.7"
     },
     {
       id: "ed2",
       school: "SMA Plus PGRI Cibinong",
       degree: "Jurusan IPA",
-      period: "Mei 2017 - Juni 2020",
-      gpa: "9.2"
+      period: "Mei 2020 - Juni 2023",
+      gpa: "86"
     }
   ],
   certifications: [
