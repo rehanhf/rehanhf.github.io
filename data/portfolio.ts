@@ -28,48 +28,55 @@ const enContent: PortfolioContent = {
   projects: [
     {
       id: "1",
-      title: "CSV Analytics App",
-      description: "Interactive web dashboard for CSV dataset exploration. Features secure auth, dynamic visualization, and AI-powered assistance via Gemini API.",
-      tags: ["R Shiny", "Gemini API", "Data Viz"],
-      link: "https://raihanh.shinyapps.io/CSV_Data_Analytics"
-    },
-    {
-      id: "2",
       title: "End-to-End Crypto ELT",
       description: "Containerized pipeline orchestrating cryptocurrency market data. Implements a Data Lake architecture with MinIO, transformation via dbt, and automated scheduling using Apache Airflow.",
       tags: ["Airflow", "dbt", "Docker", "Postgres"],
       link: "https://github.com/rehanhf/crypto-elt-pipeline"
     },
     {
-      id: "3",
+      id: "2",
       title: "NYC Taxi Big Data Platform",
       description: "Scalable batch processing system handling 130M+ records. Utilizes Apache Spark for distributed transformation, DuckDB for high-speed ingestion, and custom geospatial visualization.",
       tags: ["Apache Spark", "Airflow", "Big Data", "Metabase"],
       link: "https://github.com/rehanhf/nyc-taxi-pipeline"
     },
     {
-      id: "4",
+      id: "3",
       title: "Headless Media CMS",
       description: "High-performance API backend for omnichannel content delivery. Features MariaDB native Full-Text Search, Redis caching for sub-50ms latency, and scalable Docker infrastructure.",
       tags: ["Laravel", "MariaDB", "Redis", "API Design"],
       link: "https://github.com/rehanhf/headless-news"
     },
     {
+      id: "4",
+      title: "CSV Analytics App",
+      description: "Interactive web dashboard for CSV dataset exploration. Features secure auth, dynamic visualization, and AI-powered assistance via Gemini API.",
+      tags: ["R Shiny", "Gemini API", "Data Viz"],
+      link: "https://raihanh.shinyapps.io/CSV_Data_Analytics"
+    },
+    {
       id: "5",
+      title: "Production-Grade Credit Risk & Fraud Detection Infrastructure",
+      description: "An end-to-end financial risk engine that prioritizes economic utility by optimizing decision thresholds based on principal loss vs. interest gain ($C_{FN}$ vs $C_{FP}$). Features temporal data isolation, SHAP-driven regulatory explainability, and automated drift monitoring via Population Stability Index (PSI). Deployed as a high-performance, containerized REST API with strict Pydantic schema validation.",
+      tags: ["LightGBM", "PyTorch", "FastAPI", "Docker", "SHAP", "MLOps"],
+      link: "https://github.com/rehanhf/risk-scoring-system"
+    },
+    {
+      id: "6",
       title: "FISIP Connect",
       description: "Centralized digital information hub for BEM FISIP serving 1000+ students. Includes custom CMS for event calendars and announcements.",
       tags: ["PHP", "JS", "HTML/CSS", "CMS"],
       link: "fisipconnect.id"
     },
     {
-      id: "6",
+      id: "7",
       title: "Law Firm Redesign",
       description: "UI/UX redesign for Anagata Law website focusing on readability, information hierarchy, and visual consistency.",
       tags: ["Figma", "UI/UX", "Design System"],
       link: "https://www.figma.com/proto/gJQZxc7xgj9Nsg2CHy7bv4/UAS-IUXXIU?node-id=1-2&p=f&t=EvIrY7HVdZXnpTZJ-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1"
     },
     {
-      id: "7",
+      id: "8",
       title: "TAJAM Digital News & Article Website",
       description: "Web-based content management system for creating, managing, and publishing articles with role-based access control. Supports dynamic routing with SEO-friendly slugs, category and tag management, and cloud-based image handling, built on a modern full-stack architecture for performance and scalability.",
       tags: ["Next.js", "Firebase", "Typescript", "CMS", "TailwindCSS"],
@@ -93,7 +100,7 @@ const enContent: PortfolioContent = {
       id: "e2",
       role: "IT Intern",
       company: "Jawapos.COM",
-      period: "Aug 2025 - Present",
+      period: "Feb 2026 - Mar 2026",
       achievements: [
         "Focused on modernizing legacy data infrastructure and automating editorial workflows for the Jawa Pos digital network.",
         "Build an idempotent ETL pipeline using Laravel 12 and MariaDB. Implemented a Service-Layer pattern to normalize unstructured legacy data into a strict relational schema using polymorphic relationships and ACID transactions.",
@@ -163,56 +170,63 @@ const idContent: PortfolioContent = {
     name: "Raihan Hafizh Rifadi",
     title: "Data Scientist & Full-Stack Developer",
     subtitle: "Menjembatani kesenjangan antara Data yang Kompleks dan Pengalaman Intuitif.",
-    imageUrl: "https://picsum.photos/600/800",
+    imageUrl: "/images/profile.jpg",
   },
-  summary: "Saya adalah mahasiswa S1 Sains Informasi di UPN Veteran Jakarta dengan IPK 3.7. Saya memiliki profil hibrida unik, menggabungkan keterampilan analisis data yang kuat (Python, R, SQL) dengan kemampuan pengembangan web full-stack. Saya berspesialisasi dalam membangun aplikasi berbasis data, mengotomatisasi alur kerja, dan merancang antarmuka yang berpusat pada pengguna.",
+  summary: "Saya adalah mahasiswa S1 Sains Informasi di UPN Veteran Jakarta dengan IPK 3.7. Saya memiliki profil hybrid unik, menggabungkan keterampilan analisis data yang kuat (Python, R, SQL) dengan kemampuan pengembangan web full-stack. Saya berspesialisasi dalam membangun aplikasi berbasis data, mengotomatisasi alur kerja, dan merancang antarmuka yang berpusat pada pengguna.",
   skills,
   currentlyLearning,
   projects: [
     {
       id: "1",
-      title: "Aplikasi Analitik CSV",
-      description: "Dashboard web interaktif untuk eksplorasi dataset CSV. Fitur autentikasi aman, visualisasi dinamis, dan dukungan AI melalui Gemini API.",
-      tags: ["R Shiny", "Gemini API", "Data Viz"],
-      link: "#"
-    },
-    {
-      id: "2",
       title: "End-to-End Crypto ELT",
       description: "Pipeline terkontainerisasi yang mengelola data pasar kripto. Mengimplementasikan arsitektur Data Lake dengan MinIO, transformasi menggunakan dbt, dan penjadwalan otomatis dengan Apache Airflow.",
       tags: ["Airflow", "dbt", "Docker", "Postgres"],
       link: "https://github.com/rehanhf/crypto-elt-pipeline"
     },
     {
-      id: "3",
+      id: "2",
       title: "Platform Big Data Taksi NYC",
       description: "Sistem pemrosesan batch yang skalabel untuk menangani lebih dari 130 juta catatan. Menggunakan Apache Spark untuk transformasi terdistribusi, DuckDB untuk pengambilan data berkecepatan tinggi, dan visualisasi geospasial kustom.",
       tags: ["Apache Spark", "Airflow", "Big Data", "Metabase"],
       link: "https://github.com/rehanhf/nyc-taxi-pipeline"
     },
     {
-      id: "4",
+      id: "3",
       title: "Headless Media CMS",
       description: " Backend API berkinerja tinggi untuk pengiriman konten omnichannel. Dilengkapi dengan Pencarian Teks Lengkap asli MariaDB, penyimpanan cache Redis untuk latensi di bawah 50ms, dan infrastruktur Docker yang skalabel.",
       tags: ["Laravel", "MariaDB", "Redis", "API Design"],
       link: "https://github.com/rehanhf/headless-news"
     },
     {
+      id: "4",
+      title: "Aplikasi Analitik CSV",
+      description: "Dashboard web interaktif untuk eksplorasi dataset CSV. Fitur autentikasi aman, visualisasi dinamis, dan dukungan AI melalui Gemini API.",
+      tags: ["R Shiny", "Gemini API", "Data Viz"],
+      link: "#"
+    },
+    {
       id: "5",
+      title: "Infrastruktur Penilaian Risiko Kredit & Deteksi Fraud",
+      description: "Sistem penilaian risiko tingkat produksi yang mengoptimalkan ambang batas keputusan berdasarkan simulasi biaya ekonomi ($C_{FN}$ vs $C_{FP}$). Mengimplementasikan pemrosesan data terisolasi secara temporal, penanganan ketidakseimbangan kelas ekstrem, eksplanabilitas SHAP untuk audit regulasi, dan pemantauan drift (PSI). Disebarkan sebagai API REST ter-Dockerize dengan validasi skema Pydantic yang ketat.",
+      tags: ["LightGBM", "PyTorch", "FastAPI", "Docker", "SHAP", "uv"],
+      link: "https://github.com/rehanhf/risk-scoring-system"
+    },
+    {
+      id: "6",
       title: "FISIP Connect",
       description: "Pusat informasi digital terpusat untuk BEM FISIP yang melayani lebih dari 1000 mahasiswa. Termasuk CMS kustom untuk kalender acara dan pengumuman.",
       tags: ["PHP", "JS", "HTML/CSS", "CMS"],
       link: "fisipconnect.id"
     },
     {
-      id: "6",
+      id: "7",
       title: "Redesain Situs Web Kantor Hukum",
       description: "Redesain UI/UX untuk situs web Anagata Law dengan fokus pada keterbacaan, hierarki informasi, dan konsistensi visual.",
       tags: ["Figma", "UI/UX", "Sistem Desain"],
       link: "https://www.figma.com/proto/gJQZxc7xgj9Nsg2CHy7bv4/UAS-IUXXIU?node-id=1-2&p=f&t=EvIrY7HVdZXnpTZJ-1& scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1"
     },
     {
-      id: "7",
+      id: "8",
       title: "TAJAM Digital News & Article Website",
       description: "Sistem manajemen konten berbasis web untuk membuat, mengelola, dan mempublikasikan artikel dengan kontrol akses berbasis peran. Mendukung rute dinamis dengan slug ramah SEO, pengelolaan kategori dan tag, serta penanganan gambar berbasis cloud, dibangun di atas arsitektur full-stack modern untuk kinerja dan skalabilitas.",
       tags: ["Next.js", "Firebase", "Typescript","CMS", "TailwindCSS"],
@@ -224,7 +238,7 @@ const idContent: PortfolioContent = {
       id: "e1",
       role: "Data Scientist Intern",
       company: "Swanstatistic",
-      period: "Agu 2025 - Des 2025",
+      period: "Agu 2025 - Sekarang",
       achievements: [
         "Bertanggung jawab untuk membuat dan menguji template N8N untuk penggunaan komersial.",
         "Menerjemahkan data mentah yang kompleks menjadi wawasan yang dapat ditindaklanjuti dan presentasi visual menggunakan Canva dan Excel.",
@@ -236,7 +250,7 @@ const idContent: PortfolioContent = {
       id: "e2",
       role: "IT Intern",
       company: "Jawapos.COM",
-      period: "Aug 2025 - Present",
+      period: "Feb 2026 - Mar 2026",
       achievements: [
         "Modernisasi infrastruktur data lama dan otomatisasi wokflow editorial untuk media digital Jawa Pos.",
         "Membuat pipeline ETL yang bersifat idempotent menggunakan Laravel 12 dan MariaDB. Menerapkan pola Service-Layer untuk menormalisasi data warisan yang tidak terstruktur menjadi skema relasional yang ketat menggunakan hubungan polimorfik dan transaksi ACID.",
