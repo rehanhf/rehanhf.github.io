@@ -84,20 +84,35 @@ const enContent: PortfolioContent = {
     },
   ],
   experience: [
+
     {
       id: "e1",
+      role: "Business Intelligence Engineer",
+      company: "BCA Syariah",
+      period: "Jul 2026 - Sep 2026",
+      achievements: [
+        "Developed relational models integrating massive banking dimension tables for sustainable resilient Dashboards",
+        "Translated complex raw data into actionable insights and visual presentations using Canva and Excel.",
+        "Designed Power BI dashboards with dynamic time setting campaign analysis capabilities.",
+        "Engineered an automated, end-to-end data pipeline in Power Query to ingest, harmonize, and consolidate denormalized promotional Excel reports directly from SharePoint APIs."
+       ]
+    },
+
+    {
+      id: "e2",
       role: "Data Scientist Intern",
       company: "Swanstatistic",
-      period: "Aug 2025 - Present",
+      period: "Aug 2025 - Apr 2026",
       achievements: [
         "In charge of creating and testing N8N templates for commercial use.",
-        "Translated complex raw data into actionable insights and visual presentations using Canva and Excel.",
         "Improved data readability for non-technical teams.",
+        "Constructed Automated Python/R Scripts that turns raw complex data into a report ready Powerpoints",
         "Managed data workflows using N8N and Python to ensure accuracy in reporting."
       ]
     },
+
     {
-      id: "e2",
+      id: "e3",
       role: "IT Intern",
       company: "Jawapos.COM",
       period: "Feb 2026 - Mar 2026",
@@ -236,18 +251,30 @@ const idContent: PortfolioContent = {
   experience: [
     {
       id: "e1",
+      role: "Business Intelligence Engineer",
+      company: "BCA Syariah",
+      period: "Jul 2026 - Sep 2026",
+      achievements: [
+        "Mengembangkan model relasional yang mengintegrasikan tabel dimensi perbankan berskala besar untuk dasbor yang berkelanjutan dan tangguh",
+        "Mengolah data mentah yang kompleks menjadi wawasan yang dapat ditindaklanjuti dan presentasi visual menggunakan Canva dan Excel.",
+        "Merancang dasbor Power BI dengan kemampuan analisis kampanye yang dilengkapi pengaturan waktu dinamis.",
+        "Merancang pipa data otomatis dari awal hingga akhir di Power Query untuk mengimpor, menyelaraskan, dan mengonsolidasikan laporan promosi Excel yang tidak dinormalisasi secara langsung dari API SharePoint."
+       ]
+    },
+    {
+      id: "e2",
       role: "Data Scientist Intern",
       company: "Swanstatistic",
-      period: "Agu 2025 - Sekarang",
+      period: "Agu 2025 - Apr 2026",
       achievements: [
-        "Bertanggung jawab untuk membuat dan menguji template N8N untuk penggunaan komersial.",
-        "Menerjemahkan data mentah yang kompleks menjadi wawasan yang dapat ditindaklanjuti dan presentasi visual menggunakan Canva dan Excel.",
-        "Meningkatkan keterbacaan data untuk tim non-teknis.",
+        "Bertanggung jawab atas pembuatan dan pengujian templat N8N untuk penggunaan komersial.",
+        "Meningkatkan keterbacaan data bagi tim non-teknis.",
+        "Membuat skrip Python/R otomatis yang mengubah data mentah yang kompleks menjadi presentasi PowerPoint yang siap dipublikasikan",
         "Mengelola alur kerja data menggunakan N8N dan Python untuk memastikan akurasi pelaporan."
       ]
     },
     {
-      id: "e2",
+      id: "e3",
       role: "IT Intern",
       company: "Jawapos.COM",
       period: "Feb 2026 - Mar 2026",
