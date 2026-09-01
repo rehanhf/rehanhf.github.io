@@ -9,65 +9,119 @@
     },
     "summary": "I am an Information Science undergraduate at UPN Veteran Jakarta with a GPA of 3.7. I possess a unique hybrid profile, combining robust data analytics skills (Python, R, SQL) with full-stack web development capabilities. I specialize in building data-driven applications, automating workflows, and designing user-centric interfaces.",
     "skills": [
-      "Python", "SQL", "TensorFlow", "React", "Next.js",
-      "TypeScript", "AWS", "Docker", "PostgreSQL", "Framer Motion"
+      "Python",
+      "SQL",
+      "TensorFlow",
+      "React",
+      "Next.js",
+      "TypeScript",
+      "AWS",
+      "Docker",
+      "PostgreSQL",
+      "Framer Motion"
     ],
-    "currentlyLearning": ["Rust", "WebAssembly", "GraphQL", "System Design"],
+    "currentlyLearning": [
+      "Rust",
+      "WebAssembly",
+      "GraphQL",
+      "System Design"
+    ],
     "projects": [
       {
         "id": "1",
         "title": "End-to-End Crypto ELT",
         "description": "Containerized pipeline orchestrating cryptocurrency market data. Implements a Data Lake architecture with MinIO, transformation via dbt, and automated scheduling using Apache Airflow.",
-        "tags": ["Airflow", "dbt", "Docker", "Postgres"],
+        "tags": [
+          "Airflow",
+          "dbt",
+          "Docker",
+          "Postgres"
+        ],
         "link": "https://github.com/rehanhf/crypto-elt-pipeline"
       },
       {
         "id": "2",
         "title": "NYC Taxi Big Data Platform",
         "description": "Scalable batch processing system handling 130M+ records. Utilizes Apache Spark for distributed transformation, DuckDB for high-speed ingestion, and custom geospatial visualization.",
-        "tags": ["Apache Spark", "Airflow", "Big Data", "Metabase"],
+        "tags": [
+          "Apache Spark",
+          "Airflow",
+          "Big Data",
+          "Metabase"
+        ],
         "link": "https://github.com/rehanhf/nyc-taxi-pipeline"
       },
       {
         "id": "3",
         "title": "Headless Media CMS",
         "description": "High-performance API backend for omnichannel content delivery. Features MariaDB native Full-Text Search, Redis caching for sub-50ms latency, and scalable Docker infrastructure.",
-        "tags": ["Laravel", "MariaDB", "Redis", "API Design"],
+        "tags": [
+          "Laravel",
+          "MariaDB",
+          "Redis",
+          "API Design"
+        ],
         "link": "https://github.com/rehanhf/headless-news"
       },
       {
         "id": "4",
         "title": "CSV Analytics App",
         "description": "Interactive web dashboard for CSV dataset exploration. Features secure auth, dynamic visualization, and AI-powered assistance via Gemini API.",
-        "tags": ["R Shiny", "Gemini API", "Data Viz"],
+        "tags": [
+          "R Shiny",
+          "Gemini API",
+          "Data Viz"
+        ],
         "link": "https://raihanh.shinyapps.io/CSV_Data_Analytics"
       },
       {
         "id": "5",
         "title": "Production-Grade Credit Risk & Fraud Detection Infrastructure",
-        "description": "An end-to-end financial risk engine that prioritizes economic utility by optimizing decision thresholds based on principal loss vs. interest gain. Features temporal data isolation, SHAP-driven regulatory explainability, and automated drift monitoring via Population Stability Index (PSI). Deployed as a high-performance, containerized REST API with strict Pydantic schema validation.",
-        "tags": ["LightGBM", "PyTorch", "FastAPI", "Docker", "SHAP", "MLOps"],
+        "description": "An end-to-end financial risk engine that prioritizes economic utility by optimizing decision thresholds based on principal loss vs. interest gain ($C_{FN}$ vs $C_{FP}$). Features temporal data isolation, SHAP-driven regulatory explainability, and automated drift monitoring via Population Stability Index (PSI). Deployed as a high-performance, containerized REST API with strict Pydantic schema validation.",
+        "tags": [
+          "LightGBM",
+          "PyTorch",
+          "FastAPI",
+          "Docker",
+          "SHAP",
+          "MLOps"
+        ],
         "link": "https://github.com/rehanhf/risk-scoring-system"
       },
       {
         "id": "6",
         "title": "FISIP Connect",
         "description": "Centralized digital information hub for BEM FISIP serving 1000+ students. Includes custom CMS for event calendars and announcements.",
-        "tags": ["PHP", "JS", "HTML/CSS", "CMS"],
+        "tags": [
+          "PHP",
+          "JS",
+          "HTML/CSS",
+          "CMS"
+        ],
         "link": "fisipconnect.id"
       },
       {
         "id": "7",
         "title": "Law Firm Redesign",
         "description": "UI/UX redesign for Anagata Law website focusing on readability, information hierarchy, and visual consistency.",
-        "tags": ["Figma", "UI/UX", "Design System"],
+        "tags": [
+          "Figma",
+          "UI/UX",
+          "Design System"
+        ],
         "link": "https://www.figma.com/proto/gJQZxc7xgj9Nsg2CHy7bv4/UAS-IUXXIU?node-id=1-2&p=f&t=EvIrY7HVdZXnpTZJ-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1"
       },
       {
         "id": "8",
         "title": "TAJAM Digital News & Article Website",
         "description": "Web-based content management system for creating, managing, and publishing articles with role-based access control. Supports dynamic routing with SEO-friendly slugs, category and tag management, and cloud-based image handling, built on a modern full-stack architecture for performance and scalability.",
-        "tags": ["Next.js", "Firebase", "Typescript", "CMS", "TailwindCSS"],
+        "tags": [
+          "Next.js",
+          "Firebase",
+          "Typescript",
+          "CMS",
+          "TailwindCSS"
+        ],
         "link": "https://news-websites-testing-9th9-hzdiu01jo-hafizhnabil-6875s-projects.vercel.app"
       }
     ],
@@ -76,7 +130,7 @@
         "id": "e1",
         "role": "Business Intelligence Engineer",
         "company": "BCA Syariah",
-        "companyLogo": "https://www.google.com/s2/favicons?domain=bcasyariah.co.id&sz=64",
+        "companyLogo": "https://yt3.googleusercontent.com/8bzQwhiDnFv8qjz8PwwoetqDKqKMykeLhIexUo2d_yxN8jILBUw1dCuRxkLOHcFGlrbjiUDZ=s900-c-k-c0x00ffffff-no-rj",
         "companyUrl": "https://www.bcasyariah.co.id/",
         "period": "Jul 2026 - Sep 2026",
         "achievements": [
@@ -90,7 +144,7 @@
         "id": "e2",
         "role": "Data Scientist Intern",
         "company": "Swanstatistic",
-        "companyLogo": "https://www.google.com/s2/favicons?domain=swanstatistic.com&sz=64",
+        "companyLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPOst-v5q5OedacFiK4ep-PH331BqCZ45HKR4YmhTVlZNbhfJP7MtQHoY&s=10",
         "companyUrl": "https://swanstatistic.com/",
         "period": "Aug 2025 - Apr 2026",
         "achievements": [
@@ -148,9 +202,18 @@
       }
     ],
     "social": [
-      { "platform": "github", "url": "https://github.com/rehanhf/" },
-      { "platform": "linkedin", "url": "https://www.linkedin.com/in/raihan-hafizh-rifadi-7b4128286/" },
-      { "platform": "email", "url": "mailto:hafizhnabil@gmail.com" }
+      {
+        "platform": "github",
+        "url": "https://github.com/rehanhf/"
+      },
+      {
+        "platform": "linkedin",
+        "url": "https://www.linkedin.com/in/raihan-hafizh-rifadi-7b4128286/"
+      },
+      {
+        "platform": "email",
+        "url": "mailto:hafizhnabil@gmail.com"
+      }
     ],
     "labels": {
       "available": "AVAILABLE FOR HIRE",
@@ -184,65 +247,119 @@
     },
     "summary": "Saya adalah mahasiswa S1 Sains Informasi di UPN Veteran Jakarta dengan IPK 3.7. Saya memiliki profil hybrid unik, menggabungkan keterampilan analisis data yang kuat (Python, R, SQL) dengan kemampuan pengembangan web full-stack. Saya berspesialisasi dalam membangun aplikasi berbasis data, mengotomatisasi alur kerja, dan merancang antarmuka yang berpusat pada pengguna.",
     "skills": [
-      "Python", "SQL", "TensorFlow", "React", "Next.js",
-      "TypeScript", "AWS", "Docker", "PostgreSQL", "Framer Motion"
+      "Python",
+      "SQL",
+      "TensorFlow",
+      "React",
+      "Next.js",
+      "TypeScript",
+      "AWS",
+      "Docker",
+      "PostgreSQL",
+      "Framer Motion"
     ],
-    "currentlyLearning": ["Rust", "WebAssembly", "GraphQL", "System Design"],
+    "currentlyLearning": [
+      "Rust",
+      "WebAssembly",
+      "GraphQL",
+      "System Design"
+    ],
     "projects": [
       {
         "id": "1",
         "title": "End-to-End Crypto ELT",
         "description": "Pipeline terkontainerisasi yang mengelola data pasar kripto. Mengimplementasikan arsitektur Data Lake dengan MinIO, transformasi menggunakan dbt, dan penjadwalan otomatis dengan Apache Airflow.",
-        "tags": ["Airflow", "dbt", "Docker", "Postgres"],
+        "tags": [
+          "Airflow",
+          "dbt",
+          "Docker",
+          "Postgres"
+        ],
         "link": "https://github.com/rehanhf/crypto-elt-pipeline"
       },
       {
         "id": "2",
         "title": "Platform Big Data Taksi NYC",
         "description": "Sistem pemrosesan batch yang skalabel untuk menangani lebih dari 130 juta catatan. Menggunakan Apache Spark untuk transformasi terdistribusi, DuckDB untuk pengambilan data berkecepatan tinggi, dan visualisasi geospasial kustom.",
-        "tags": ["Apache Spark", "Airflow", "Big Data", "Metabase"],
+        "tags": [
+          "Apache Spark",
+          "Airflow",
+          "Big Data",
+          "Metabase"
+        ],
         "link": "https://github.com/rehanhf/nyc-taxi-pipeline"
       },
       {
         "id": "3",
         "title": "Headless Media CMS",
         "description": "Backend API berkinerja tinggi untuk pengiriman konten omnichannel. Dilengkapi dengan Pencarian Teks Lengkap asli MariaDB, penyimpanan cache Redis untuk latensi di bawah 50ms, dan infrastruktur Docker yang skalabel.",
-        "tags": ["Laravel", "MariaDB", "Redis", "API Design"],
+        "tags": [
+          "Laravel",
+          "MariaDB",
+          "Redis",
+          "API Design"
+        ],
         "link": "https://github.com/rehanhf/headless-news"
       },
       {
         "id": "4",
         "title": "Aplikasi Analitik CSV",
         "description": "Dashboard web interaktif untuk eksplorasi dataset CSV. Fitur autentikasi aman, visualisasi dinamis, dan dukungan AI melalui Gemini API.",
-        "tags": ["R Shiny", "Gemini API", "Data Viz"],
+        "tags": [
+          "R Shiny",
+          "Gemini API",
+          "Data Viz"
+        ],
         "link": "#"
       },
       {
         "id": "5",
         "title": "Infrastruktur Penilaian Risiko Kredit & Deteksi Fraud",
         "description": "Sistem penilaian risiko tingkat produksi yang mengoptimalkan ambang batas keputusan berdasarkan simulasi biaya ekonomi. Mengimplementasikan pemrosesan data terisolasi secara temporal, penanganan ketidakseimbangan kelas ekstrem, eksplanabilitas SHAP untuk audit regulasi, dan pemantauan drift (PSI). Disebarkan sebagai API REST ter-Dockerize dengan validasi skema Pydantic yang ketat.",
-        "tags": ["LightGBM", "PyTorch", "FastAPI", "Docker", "SHAP", "uv"],
+        "tags": [
+          "LightGBM",
+          "PyTorch",
+          "FastAPI",
+          "Docker",
+          "SHAP",
+          "uv"
+        ],
         "link": "https://github.com/rehanhf/risk-scoring-system"
       },
       {
         "id": "6",
         "title": "FISIP Connect",
         "description": "Pusat informasi digital terpusat untuk BEM FISIP yang melayani lebih dari 1000 mahasiswa. Termasuk CMS kustom untuk kalender acara dan pengumuman.",
-        "tags": ["PHP", "JS", "HTML/CSS", "CMS"],
+        "tags": [
+          "PHP",
+          "JS",
+          "HTML/CSS",
+          "CMS"
+        ],
         "link": "fisipconnect.id"
       },
       {
         "id": "7",
         "title": "Redesain Situs Web Kantor Hukum",
         "description": "Redesain UI/UX untuk situs web Anagata Law dengan fokus pada keterbacaan, hierarki informasi, dan konsistensi visual.",
-        "tags": ["Figma", "UI/UX", "Sistem Desain"],
+        "tags": [
+          "Figma",
+          "UI/UX",
+          "Sistem Desain"
+        ],
         "link": "https://www.figma.com/proto/gJQZxc7xgj9Nsg2CHy7bv4/UAS-IUXXIU?node-id=1-2&p=f&t=EvIrY7HVdZXnpTZJ-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1"
       },
       {
         "id": "8",
         "title": "TAJAM Digital News & Article Website",
         "description": "Sistem manajemen konten berbasis web untuk membuat, mengelola, dan mempublikasikan artikel dengan kontrol akses berbasis peran. Mendukung rute dinamis dengan slug ramah SEO, pengelolaan kategori dan tag, serta penanganan gambar berbasis cloud, dibangun di atas arsitektur full-stack modern untuk kinerja dan skalabilitas.",
-        "tags": ["Next.js", "Firebase", "Typescript", "CMS", "TailwindCSS"],
+        "tags": [
+          "Next.js",
+          "Firebase",
+          "Typescript",
+          "CMS",
+          "TailwindCSS"
+        ],
         "link": "https://news-websites-testing-9th9-hzdiu01jo-hafizhnabil-6875s-projects.vercel.app"
       }
     ],
@@ -323,9 +440,18 @@
       }
     ],
     "social": [
-      { "platform": "github", "url": "https://github.com/rehanhf/" },
-      { "platform": "linkedin", "url": "https://www.linkedin.com/in/raihan-hafizh-rifadi-7b4128286/" },
-      { "platform": "email", "url": "mailto:hafizhnabil@gmail.com" }
+      {
+        "platform": "github",
+        "url": "https://github.com/rehanhf/"
+      },
+      {
+        "platform": "linkedin",
+        "url": "https://www.linkedin.com/in/raihan-hafizh-rifadi-7b4128286/"
+      },
+      {
+        "platform": "email",
+        "url": "mailto:hafizhnabil@gmail.com"
+      }
     ],
     "labels": {
       "available": "TERSEDIA UNTUK PEKERJAAN",
