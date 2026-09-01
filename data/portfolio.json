@@ -1,0 +1,352 @@
+{
+  "en": {
+    "hero": {
+      "name": "Raihan Hafizh Rifadi",
+      "title": "Data Scientist & Full-Stack Developer",
+      "subtitle": "Bridging the gap between Complex Data and Intuitive Experiences.",
+      "imageUrl": "/images/profile.jpg",
+      "brandLogo": ""
+    },
+    "summary": "I am an Information Science undergraduate at UPN Veteran Jakarta with a GPA of 3.7. I possess a unique hybrid profile, combining robust data analytics skills (Python, R, SQL) with full-stack web development capabilities. I specialize in building data-driven applications, automating workflows, and designing user-centric interfaces.",
+    "skills": [
+      "Python", "SQL", "TensorFlow", "React", "Next.js",
+      "TypeScript", "AWS", "Docker", "PostgreSQL", "Framer Motion"
+    ],
+    "currentlyLearning": ["Rust", "WebAssembly", "GraphQL", "System Design"],
+    "projects": [
+      {
+        "id": "1",
+        "title": "End-to-End Crypto ELT",
+        "description": "Containerized pipeline orchestrating cryptocurrency market data. Implements a Data Lake architecture with MinIO, transformation via dbt, and automated scheduling using Apache Airflow.",
+        "tags": ["Airflow", "dbt", "Docker", "Postgres"],
+        "link": "https://github.com/rehanhf/crypto-elt-pipeline"
+      },
+      {
+        "id": "2",
+        "title": "NYC Taxi Big Data Platform",
+        "description": "Scalable batch processing system handling 130M+ records. Utilizes Apache Spark for distributed transformation, DuckDB for high-speed ingestion, and custom geospatial visualization.",
+        "tags": ["Apache Spark", "Airflow", "Big Data", "Metabase"],
+        "link": "https://github.com/rehanhf/nyc-taxi-pipeline"
+      },
+      {
+        "id": "3",
+        "title": "Headless Media CMS",
+        "description": "High-performance API backend for omnichannel content delivery. Features MariaDB native Full-Text Search, Redis caching for sub-50ms latency, and scalable Docker infrastructure.",
+        "tags": ["Laravel", "MariaDB", "Redis", "API Design"],
+        "link": "https://github.com/rehanhf/headless-news"
+      },
+      {
+        "id": "4",
+        "title": "CSV Analytics App",
+        "description": "Interactive web dashboard for CSV dataset exploration. Features secure auth, dynamic visualization, and AI-powered assistance via Gemini API.",
+        "tags": ["R Shiny", "Gemini API", "Data Viz"],
+        "link": "https://raihanh.shinyapps.io/CSV_Data_Analytics"
+      },
+      {
+        "id": "5",
+        "title": "Production-Grade Credit Risk & Fraud Detection Infrastructure",
+        "description": "An end-to-end financial risk engine that prioritizes economic utility by optimizing decision thresholds based on principal loss vs. interest gain. Features temporal data isolation, SHAP-driven regulatory explainability, and automated drift monitoring via Population Stability Index (PSI). Deployed as a high-performance, containerized REST API with strict Pydantic schema validation.",
+        "tags": ["LightGBM", "PyTorch", "FastAPI", "Docker", "SHAP", "MLOps"],
+        "link": "https://github.com/rehanhf/risk-scoring-system"
+      },
+      {
+        "id": "6",
+        "title": "FISIP Connect",
+        "description": "Centralized digital information hub for BEM FISIP serving 1000+ students. Includes custom CMS for event calendars and announcements.",
+        "tags": ["PHP", "JS", "HTML/CSS", "CMS"],
+        "link": "fisipconnect.id"
+      },
+      {
+        "id": "7",
+        "title": "Law Firm Redesign",
+        "description": "UI/UX redesign for Anagata Law website focusing on readability, information hierarchy, and visual consistency.",
+        "tags": ["Figma", "UI/UX", "Design System"],
+        "link": "https://www.figma.com/proto/gJQZxc7xgj9Nsg2CHy7bv4/UAS-IUXXIU?node-id=1-2&p=f&t=EvIrY7HVdZXnpTZJ-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1"
+      },
+      {
+        "id": "8",
+        "title": "TAJAM Digital News & Article Website",
+        "description": "Web-based content management system for creating, managing, and publishing articles with role-based access control. Supports dynamic routing with SEO-friendly slugs, category and tag management, and cloud-based image handling, built on a modern full-stack architecture for performance and scalability.",
+        "tags": ["Next.js", "Firebase", "Typescript", "CMS", "TailwindCSS"],
+        "link": "https://news-websites-testing-9th9-hzdiu01jo-hafizhnabil-6875s-projects.vercel.app"
+      }
+    ],
+    "experience": [
+      {
+        "id": "e1",
+        "role": "Business Intelligence Engineer",
+        "company": "BCA Syariah",
+        "companyLogo": "https://www.google.com/s2/favicons?domain=bcasyariah.co.id&sz=64",
+        "companyUrl": "https://www.bcasyariah.co.id/",
+        "period": "Jul 2026 - Sep 2026",
+        "achievements": [
+          "Developed relational models integrating massive banking dimension tables for sustainable resilient Dashboards",
+          "Translated complex raw data into actionable insights and visual presentations using Canva and Excel.",
+          "Designed Power BI dashboards with dynamic time setting campaign analysis capabilities.",
+          "Engineered an automated, end-to-end data pipeline in Power Query to ingest, harmonize, and consolidate denormalized promotional Excel reports directly from SharePoint APIs."
+        ]
+      },
+      {
+        "id": "e2",
+        "role": "Data Scientist Intern",
+        "company": "Swanstatistic",
+        "companyLogo": "https://www.google.com/s2/favicons?domain=swanstatistic.com&sz=64",
+        "companyUrl": "https://swanstatistic.com/",
+        "period": "Aug 2025 - Apr 2026",
+        "achievements": [
+          "In charge of creating and testing N8N templates for commercial use.",
+          "Improved data readability for non-technical teams.",
+          "Constructed Automated Python/R Scripts that turns raw complex data into a report ready Powerpoints",
+          "Managed data workflows using N8N and Python to ensure accuracy in reporting."
+        ]
+      },
+      {
+        "id": "e3",
+        "role": "IT Intern",
+        "company": "Jawapos.COM",
+        "companyLogo": "https://www.google.com/s2/favicons?domain=jawapos.com&sz=64",
+        "companyUrl": "https://www.jawapos.com/",
+        "period": "Feb 2026 - Mar 2026",
+        "achievements": [
+          "Focused on modernizing legacy data infrastructure and automating editorial workflows for the Jawa Pos digital network.",
+          "Build an idempotent ETL pipeline using Laravel 12 and MariaDB. Implemented a Service-Layer pattern to normalize unstructured legacy data into a strict relational schema using polymorphic relationships and ACID transactions.",
+          "Engineered a robust Python automation suite (cloudscraper, BeautifulSoup) to scrape and validate metadata across 25+ Radar subdomains. This replaced manual data entry, bypassing Cloudflare anti-bot protection and ensuring 100% data accuracy for publisher configuration files (JSON)."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "id": "ed1",
+        "school": "Universitas Pembangunan Veteran Jakarta",
+        "degree": "Bachelor of Information Science",
+        "period": "Aug 2023 - Present",
+        "gpa": "3.7"
+      },
+      {
+        "id": "ed2",
+        "school": "SMA Plus PGRI Cibinong",
+        "degree": "Science Major",
+        "period": "May 2020 - June 2023",
+        "gpa": "87"
+      }
+    ],
+    "certifications": [
+      {
+        "id": "c1",
+        "name": "Google Data Analytics Professional Certificate",
+        "issuer": "Google"
+      },
+      {
+        "id": "c2",
+        "name": "Samsung Innovation Campus Batch 6: Intro to IoT & Python",
+        "issuer": "Samsung"
+      },
+      {
+        "id": "c3",
+        "name": "Speaker Wadhwani Opportunity: Employability Skills",
+        "issuer": "Wadhwani Foundation"
+      }
+    ],
+    "social": [
+      { "platform": "github", "url": "https://github.com/rehanhf/" },
+      { "platform": "linkedin", "url": "https://www.linkedin.com/in/raihan-hafizh-rifadi-7b4128286/" },
+      { "platform": "email", "url": "mailto:hafizhnabil@gmail.com" }
+    ],
+    "labels": {
+      "available": "AVAILABLE FOR HIRE",
+      "intro": "01. Introduction",
+      "capabilities": "02. Capabilities",
+      "technical": "Technical Expertise",
+      "coreStack": "Core Stack",
+      "current": "Currently Learning",
+      "works": "01. Selected Works",
+      "experience": "02. Experience",
+      "academics": "03. Academics",
+      "education": "Education",
+      "certifications": "Certifications",
+      "contact": "Let's Connect",
+      "footer": "DESIGNED & BUILT BY RAIHAN HAFIZH RIFADI",
+      "nav": {
+        "about": "About",
+        "projects": "Projects",
+        "experience": "Experience",
+        "contact": "Contact"
+      }
+    }
+  },
+  "id": {
+    "hero": {
+      "name": "Raihan Hafizh Rifadi",
+      "title": "Data Scientist & Full-Stack Developer",
+      "subtitle": "Menjembatani kesenjangan antara Data yang Kompleks dan Pengalaman Intuitif.",
+      "imageUrl": "/images/profile.jpg",
+      "brandLogo": ""
+    },
+    "summary": "Saya adalah mahasiswa S1 Sains Informasi di UPN Veteran Jakarta dengan IPK 3.7. Saya memiliki profil hybrid unik, menggabungkan keterampilan analisis data yang kuat (Python, R, SQL) dengan kemampuan pengembangan web full-stack. Saya berspesialisasi dalam membangun aplikasi berbasis data, mengotomatisasi alur kerja, dan merancang antarmuka yang berpusat pada pengguna.",
+    "skills": [
+      "Python", "SQL", "TensorFlow", "React", "Next.js",
+      "TypeScript", "AWS", "Docker", "PostgreSQL", "Framer Motion"
+    ],
+    "currentlyLearning": ["Rust", "WebAssembly", "GraphQL", "System Design"],
+    "projects": [
+      {
+        "id": "1",
+        "title": "End-to-End Crypto ELT",
+        "description": "Pipeline terkontainerisasi yang mengelola data pasar kripto. Mengimplementasikan arsitektur Data Lake dengan MinIO, transformasi menggunakan dbt, dan penjadwalan otomatis dengan Apache Airflow.",
+        "tags": ["Airflow", "dbt", "Docker", "Postgres"],
+        "link": "https://github.com/rehanhf/crypto-elt-pipeline"
+      },
+      {
+        "id": "2",
+        "title": "Platform Big Data Taksi NYC",
+        "description": "Sistem pemrosesan batch yang skalabel untuk menangani lebih dari 130 juta catatan. Menggunakan Apache Spark untuk transformasi terdistribusi, DuckDB untuk pengambilan data berkecepatan tinggi, dan visualisasi geospasial kustom.",
+        "tags": ["Apache Spark", "Airflow", "Big Data", "Metabase"],
+        "link": "https://github.com/rehanhf/nyc-taxi-pipeline"
+      },
+      {
+        "id": "3",
+        "title": "Headless Media CMS",
+        "description": "Backend API berkinerja tinggi untuk pengiriman konten omnichannel. Dilengkapi dengan Pencarian Teks Lengkap asli MariaDB, penyimpanan cache Redis untuk latensi di bawah 50ms, dan infrastruktur Docker yang skalabel.",
+        "tags": ["Laravel", "MariaDB", "Redis", "API Design"],
+        "link": "https://github.com/rehanhf/headless-news"
+      },
+      {
+        "id": "4",
+        "title": "Aplikasi Analitik CSV",
+        "description": "Dashboard web interaktif untuk eksplorasi dataset CSV. Fitur autentikasi aman, visualisasi dinamis, dan dukungan AI melalui Gemini API.",
+        "tags": ["R Shiny", "Gemini API", "Data Viz"],
+        "link": "#"
+      },
+      {
+        "id": "5",
+        "title": "Infrastruktur Penilaian Risiko Kredit & Deteksi Fraud",
+        "description": "Sistem penilaian risiko tingkat produksi yang mengoptimalkan ambang batas keputusan berdasarkan simulasi biaya ekonomi. Mengimplementasikan pemrosesan data terisolasi secara temporal, penanganan ketidakseimbangan kelas ekstrem, eksplanabilitas SHAP untuk audit regulasi, dan pemantauan drift (PSI). Disebarkan sebagai API REST ter-Dockerize dengan validasi skema Pydantic yang ketat.",
+        "tags": ["LightGBM", "PyTorch", "FastAPI", "Docker", "SHAP", "uv"],
+        "link": "https://github.com/rehanhf/risk-scoring-system"
+      },
+      {
+        "id": "6",
+        "title": "FISIP Connect",
+        "description": "Pusat informasi digital terpusat untuk BEM FISIP yang melayani lebih dari 1000 mahasiswa. Termasuk CMS kustom untuk kalender acara dan pengumuman.",
+        "tags": ["PHP", "JS", "HTML/CSS", "CMS"],
+        "link": "fisipconnect.id"
+      },
+      {
+        "id": "7",
+        "title": "Redesain Situs Web Kantor Hukum",
+        "description": "Redesain UI/UX untuk situs web Anagata Law dengan fokus pada keterbacaan, hierarki informasi, dan konsistensi visual.",
+        "tags": ["Figma", "UI/UX", "Sistem Desain"],
+        "link": "https://www.figma.com/proto/gJQZxc7xgj9Nsg2CHy7bv4/UAS-IUXXIU?node-id=1-2&p=f&t=EvIrY7HVdZXnpTZJ-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1"
+      },
+      {
+        "id": "8",
+        "title": "TAJAM Digital News & Article Website",
+        "description": "Sistem manajemen konten berbasis web untuk membuat, mengelola, dan mempublikasikan artikel dengan kontrol akses berbasis peran. Mendukung rute dinamis dengan slug ramah SEO, pengelolaan kategori dan tag, serta penanganan gambar berbasis cloud, dibangun di atas arsitektur full-stack modern untuk kinerja dan skalabilitas.",
+        "tags": ["Next.js", "Firebase", "Typescript", "CMS", "TailwindCSS"],
+        "link": "https://news-websites-testing-9th9-hzdiu01jo-hafizhnabil-6875s-projects.vercel.app"
+      }
+    ],
+    "experience": [
+      {
+        "id": "e1",
+        "role": "Business Intelligence Engineer",
+        "company": "BCA Syariah",
+        "companyLogo": "https://www.google.com/s2/favicons?domain=bcasyariah.co.id&sz=64",
+        "companyUrl": "https://www.bcasyariah.co.id/",
+        "period": "Jul 2026 - Sep 2026",
+        "achievements": [
+          "Mengembangkan model relasional yang mengintegrasikan tabel dimensi perbankan berskala besar untuk dasbor yang berkelanjutan dan tangguh",
+          "Mengolah data mentah yang kompleks menjadi wawasan yang dapat ditindaklanjuti dan presentasi visual menggunakan Canva dan Excel.",
+          "Merancang dasbor Power BI dengan kemampuan analisis kampanye yang dilengkapi pengaturan waktu dinamis.",
+          "Merancang pipa data otomatis dari awal hingga akhir di Power Query untuk mengimpor, menyelaraskan, dan mengonsolidasikan laporan promosi Excel yang tidak dinormalisasi secara langsung dari API SharePoint."
+        ]
+      },
+      {
+        "id": "e2",
+        "role": "Data Scientist Intern",
+        "company": "Swanstatistic",
+        "companyLogo": "https://www.google.com/s2/favicons?domain=swanstatistic.com&sz=64",
+        "companyUrl": "https://swanstatistic.com/",
+        "period": "Agu 2025 - Apr 2026",
+        "achievements": [
+          "Bertanggung jawab atas pembuatan dan pengujian templat N8N untuk penggunaan komersial.",
+          "Meningkatkan keterbacaan data bagi tim non-teknis.",
+          "Membuat skrip Python/R otomatis yang mengubah data mentah yang kompleks menjadi presentasi PowerPoint yang siap dipublikasikan",
+          "Mengelola alur kerja data menggunakan N8N dan Python untuk memastikan akurasi pelaporan."
+        ]
+      },
+      {
+        "id": "e3",
+        "role": "IT Intern",
+        "company": "Jawapos.COM",
+        "companyLogo": "https://www.google.com/s2/favicons?domain=jawapos.com&sz=64",
+        "companyUrl": "https://www.jawapos.com/",
+        "period": "Feb 2026 - Mar 2026",
+        "achievements": [
+          "Modernisasi infrastruktur data lama dan otomatisasi workflow editorial untuk media digital Jawa Pos.",
+          "Membuat pipeline ETL yang bersifat idempotent menggunakan Laravel 12 dan MariaDB. Menerapkan pola Service-Layer untuk menormalisasi data warisan yang tidak terstruktur menjadi skema relasional yang ketat menggunakan hubungan polimorfik dan transaksi ACID.",
+          "Mengembangkan skrip tangguh otomatisasi Python (cloudscraper, BeautifulSoup) untuk mengekstrak dan memvalidasi metadata di lebih dari 25 subdomain Radar. Ini menggantikan entri data manual, melewati perlindungan anti-bot Cloudflare, dan memastikan akurasi data 100% untuk berkas konfigurasi penerbit (JSON)."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "id": "ed1",
+        "school": "Universitas Pembangunan Veteran Jakarta",
+        "degree": "Sarjana Sains Informasi",
+        "period": "Agustus 2023 - Sekarang",
+        "gpa": "3.7"
+      },
+      {
+        "id": "ed2",
+        "school": "SMA Plus PGRI Cibinong",
+        "degree": "Jurusan IPA",
+        "period": "Mei 2020 - Juni 2023",
+        "gpa": "86"
+      }
+    ],
+    "certifications": [
+      {
+        "id": "c1",
+        "name": "Sertifikat Profesional Analitik Data Google",
+        "issuer": "Google"
+      },
+      {
+        "id": "c2",
+        "name": "Samsung Innovation Campus Batch 6: Intro to IoT & Python",
+        "issuer": "Samsung"
+      },
+      {
+        "id": "c3",
+        "name": "Speaker Wadhwani Opportunity: Employability Skills",
+        "issuer": "Wadhwani Foundation"
+      }
+    ],
+    "social": [
+      { "platform": "github", "url": "https://github.com/rehanhf/" },
+      { "platform": "linkedin", "url": "https://www.linkedin.com/in/raihan-hafizh-rifadi-7b4128286/" },
+      { "platform": "email", "url": "mailto:hafizhnabil@gmail.com" }
+    ],
+    "labels": {
+      "available": "TERSEDIA UNTUK PEKERJAAN",
+      "intro": "01. Pendahuluan",
+      "capabilities": "02. Kapabilitas",
+      "technical": "Keahlian Teknis",
+      "coreStack": "Stack Utama",
+      "current": "Sedang Dipelajari",
+      "works": "01. Karya Terpilih",
+      "experience": "02. Pengalaman",
+      "academics": "03. Akademik",
+      "education": "Pendidikan",
+      "certifications": "Sertifikasi",
+      "contact": "Mari Terhubung",
+      "footer": "DIRANCANG & DIBANGUN OLEH RAIHAN HAFIZH RIFADI",
+      "nav": {
+        "about": "Tentang",
+        "projects": "Proyek",
+        "experience": "Pengalaman",
+        "contact": "Kontak"
+      }
+    }
+  }
+}
