@@ -77,7 +77,7 @@
       {
         "id": "5",
         "title": "Production-Grade Credit Risk & Fraud Detection Infrastructure",
-        "description": "An end-to-end financial risk engine that prioritizes economic utility by optimizing decision thresholds based on principal loss vs. interest gain ($C_{FN}$ vs $C_{FP}$). Features temporal data isolation, SHAP-driven regulatory explainability, and automated drift monitoring via Population Stability Index (PSI). Deployed as a high-performance, containerized REST API with strict Pydantic schema validation.",
+        "description": "An end-to-end financial risk engine that prioritizes economic utility by optimizing decision thresholds based on principal loss vs. interest gain. Features temporal data isolation, SHAP-driven regulatory explainability, and automated drift monitoring via Population Stability Index (PSI). Deployed as a high-performance, containerized REST API with strict Pydantic schema validation.",
         "tags": [
           "LightGBM",
           "PyTorch",
