@@ -8,17 +8,31 @@ interface LanguageContextType {
   language: Language;
   setLanguage: (lang: Language) => void;
   content: PortfolioContent;
+  setContent: (next: PortfolioContent) => void;
+  resetContent: () => void;
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   const [language, setLanguage] = useState<Language>('en');
-  
-  const content = portfolioData[language];
+  const [contentMap, setContentMap] = useState<Record<Language, PortfolioContent>>({
+    en: portfolioData.en,
+    id: portfolioData.id,
+  });
+
+  const content = contentMap[language];
+
+  const setContent = (next: PortfolioContent) => {
+    setContentMap((prev) => ({ ...prev, [language]: next }));
+  };
+
+  const resetContent = () => {
+    setContentMap((prev) => ({ ...prev, [language]: portfolioData[language] }));
+  };
 
   return (
-    <LanguageContext.Provider value={{ language, setLanguage, content }}>
+    <LanguageContext.Provider value={{ language, setLanguage, content, setContent, resetContent }}>
       {children}
     </LanguageContext.Provider>
   );

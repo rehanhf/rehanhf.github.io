@@ -10,6 +10,8 @@ export interface Experience {
   id: string;
   role: string;
   company: string;
+  companyLogo?: string;
+  companyUrl?: string;
   period: string;
   achievements: string[];
 }
@@ -62,6 +64,7 @@ export interface PortfolioContent {
     title: string;
     subtitle: string;
     imageUrl: string;
+    brandLogo?: string;
   };
   summary: string;
   skills: string[];

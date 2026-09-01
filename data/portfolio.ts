@@ -2,12 +2,12 @@ import { PortfolioData, PortfolioContent } from '../types';
 
 const socialLinks = [
   { platform: "github", url: "https://github.com/rehanhf/" } as const,
-  { platform: "linkedin", url: "https://www.linkedin.com/in/raihan-hafizh-rifadi-7b4128286/git " } as const,
+  { platform: "linkedin", url: "https://www.linkedin.com/in/raihan-hafizh-rifadi-7b4128286/" } as const,
   { platform: "email", url: "mailto:hafizhnabil@gmail.com" } as const
 ];
 
 const skills = [
-  "Python", "SQL", "TensorFlow", "React", "Next.js", 
+  "Python", "SQL", "TensorFlow", "React", "Next.js",
   "TypeScript", "AWS", "Docker", "PostgreSQL", "Framer Motion"
 ];
 
@@ -21,6 +21,7 @@ const enContent: PortfolioContent = {
     title: "Data Scientist & Full-Stack Developer",
     subtitle: "Bridging the gap between Complex Data and Intuitive Experiences.",
     imageUrl: "/images/profile.jpg",
+    brandLogo: "",
   },
   summary: "I am an Information Science undergraduate at UPN Veteran Jakarta with a GPA of 3.7. I possess a unique hybrid profile, combining robust data analytics skills (Python, R, SQL) with full-stack web development capabilities. I specialize in building data-driven applications, automating workflows, and designing user-centric interfaces.",
   skills,
@@ -89,6 +90,8 @@ const enContent: PortfolioContent = {
       id: "e1",
       role: "Business Intelligence Engineer",
       company: "BCA Syariah",
+      companyLogo: "https://www.google.com/s2/favicons?domain=bcasyariah.co.id&sz=64",
+      companyUrl: "https://www.bcasyariah.co.id/",
       period: "Jul 2026 - Sep 2026",
       achievements: [
         "Developed relational models integrating massive banking dimension tables for sustainable resilient Dashboards",
@@ -102,6 +105,8 @@ const enContent: PortfolioContent = {
       id: "e2",
       role: "Data Scientist Intern",
       company: "Swanstatistic",
+      companyLogo: "https://www.google.com/s2/favicons?domain=swanstatistic.com&sz=64",
+      companyUrl: "https://swanstatistic.com/",
       period: "Aug 2025 - Apr 2026",
       achievements: [
         "In charge of creating and testing N8N templates for commercial use.",
@@ -115,6 +120,8 @@ const enContent: PortfolioContent = {
       id: "e3",
       role: "IT Intern",
       company: "Jawapos.COM",
+      companyLogo: "https://www.google.com/s2/favicons?domain=jawapos.com&sz=64",
+      companyUrl: "https://www.jawapos.com/",
       period: "Feb 2026 - Mar 2026",
       achievements: [
         "Focused on modernizing legacy data infrastructure and automating editorial workflows for the Jawa Pos digital network.",
@@ -186,6 +193,7 @@ const idContent: PortfolioContent = {
     title: "Data Scientist & Full-Stack Developer",
     subtitle: "Menjembatani kesenjangan antara Data yang Kompleks dan Pengalaman Intuitif.",
     imageUrl: "/images/profile.jpg",
+    brandLogo: "",
   },
   summary: "Saya adalah mahasiswa S1 Sains Informasi di UPN Veteran Jakarta dengan IPK 3.7. Saya memiliki profil hybrid unik, menggabungkan keterampilan analisis data yang kuat (Python, R, SQL) dengan kemampuan pengembangan web full-stack. Saya berspesialisasi dalam membangun aplikasi berbasis data, mengotomatisasi alur kerja, dan merancang antarmuka yang berpusat pada pengguna.",
   skills,
@@ -253,6 +261,8 @@ const idContent: PortfolioContent = {
       id: "e1",
       role: "Business Intelligence Engineer",
       company: "BCA Syariah",
+      companyLogo: "https://www.google.com/s2/favicons?domain=bcasyariah.co.id&sz=64",
+      companyUrl: "https://www.bcasyariah.co.id/",
       period: "Jul 2026 - Sep 2026",
       achievements: [
         "Mengembangkan model relasional yang mengintegrasikan tabel dimensi perbankan berskala besar untuk dasbor yang berkelanjutan dan tangguh",
@@ -265,6 +275,8 @@ const idContent: PortfolioContent = {
       id: "e2",
       role: "Data Scientist Intern",
       company: "Swanstatistic",
+      companyLogo: "https://www.google.com/s2/favicons?domain=swanstatistic.com&sz=64",
+      companyUrl: "https://swanstatistic.com/",
       period: "Agu 2025 - Apr 2026",
       achievements: [
         "Bertanggung jawab atas pembuatan dan pengujian templat N8N untuk penggunaan komersial.",
@@ -277,6 +289,8 @@ const idContent: PortfolioContent = {
       id: "e3",
       role: "IT Intern",
       company: "Jawapos.COM",
+      companyLogo: "https://www.google.com/s2/favicons?domain=jawapos.com&sz=64",
+      companyUrl: "https://www.jawapos.com/",
       period: "Feb 2026 - Mar 2026",
       achievements: [
         "Modernisasi infrastruktur data lama dan otomatisasi wokflow editorial untuk media digital Jawa Pos.",
