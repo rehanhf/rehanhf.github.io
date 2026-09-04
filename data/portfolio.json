@@ -129,7 +129,7 @@
       {
         "id": "e1",
         "role": "Business Intelligence Engineer",
-        "company": "BCA Syariah",
+        "company": "BCA",
         "companyLogo": "https://yt3.googleusercontent.com/8bzQwhiDnFv8qjz8PwwoetqDKqKMykeLhIexUo2d_yxN8jILBUw1dCuRxkLOHcFGlrbjiUDZ=s900-c-k-c0x00ffffff-no-rj",
         "companyUrl": "https://www.bcasyariah.co.id/",
         "period": "Jul 2026 - Sep 2026",
@@ -165,6 +165,50 @@
           "Focused on modernizing legacy data infrastructure and automating editorial workflows for the Jawa Pos digital network.",
           "Build an idempotent ETL pipeline using Laravel 12 and MariaDB. Implemented a Service-Layer pattern to normalize unstructured legacy data into a strict relational schema using polymorphic relationships and ACID transactions.",
           "Engineered a robust Python automation suite (cloudscraper, BeautifulSoup) to scrape and validate metadata across 25+ Radar subdomains. This replaced manual data entry, bypassing Cloudflare anti-bot protection and ensuring 100% data accuracy for publisher configuration files (JSON)."
+        ]
+      },
+      {
+        "id": "exp-c858xup3",
+        "role": "New Role",
+        "company": "Company Name",
+        "companyLogo": "",
+        "companyUrl": "#",
+        "period": "2025 - Present",
+        "achievements": [
+          "Add achievement here"
+        ]
+      },
+      {
+        "id": "exp-mhcdujm6",
+        "role": "New Role",
+        "company": "Company Name",
+        "companyLogo": "",
+        "companyUrl": "#",
+        "period": "2025 - Present",
+        "achievements": [
+          "Add achievement here"
+        ]
+      },
+      {
+        "id": "exp-p8rmmq9y",
+        "role": "New Role",
+        "company": "Company Name",
+        "companyLogo": "",
+        "companyUrl": "#",
+        "period": "2025 - Present",
+        "achievements": [
+          "Add achievement here"
+        ]
+      },
+      {
+        "id": "exp-1kzckx1a",
+        "role": "New Role",
+        "company": "Company Name",
+        "companyLogo": "",
+        "companyUrl": "#",
+        "period": "2025 - Present",
+        "achievements": [
+          "Add achievement here"
         ]
       }
     ],
