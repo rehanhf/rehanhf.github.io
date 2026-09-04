@@ -166,28 +166,6 @@
           "Build an idempotent ETL pipeline using Laravel 12 and MariaDB. Implemented a Service-Layer pattern to normalize unstructured legacy data into a strict relational schema using polymorphic relationships and ACID transactions.",
           "Engineered a robust Python automation suite (cloudscraper, BeautifulSoup) to scrape and validate metadata across 25+ Radar subdomains. This replaced manual data entry, bypassing Cloudflare anti-bot protection and ensuring 100% data accuracy for publisher configuration files (JSON)."
         ]
-      },
-      {
-        "id": "exp-mhcdujm6",
-        "role": "New Role",
-        "company": "Company Name",
-        "companyLogo": "",
-        "companyUrl": "#",
-        "period": "2025 - Present",
-        "achievements": [
-          "Add achievement here"
-        ]
-      },
-      {
-        "id": "exp-1kzckx1a",
-        "role": "New Role",
-        "company": "Company Name",
-        "companyLogo": "",
-        "companyUrl": "#",
-        "period": "2025 - Present",
-        "achievements": [
-          "Add achievement here"
-        ]
       }
     ],
     "education": [
